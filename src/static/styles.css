@@ -135,6 +135,38 @@ button:hover {
 .hidden {
   display: none;
 }
+.show {
+  display: block;
+} 
+.participants-section {
+  margin-top: 1em;
+  padding: 0.75em 1em;
+  background: #f7f9fa;
+  border-radius: 8px;
+  border: 1px solid #e0e4e8;
+}
+
+.participants-section strong {
+  display: block;
+  margin-bottom: 0.5em;
+  color: #2d3a4b;
+  font-size: 1em;
+}
+
+.participants-list {
+  margin: 0;
+  padding-left: 1.2em;
+  list-style-type: disc;
+  color: #3a4a5d;
+  font-size: 0.97em;
+}
+
+.participants-list.empty {
+  color: #888;
+  font-style: italic;
+  padding-left: 0;
+  list-style-type: none;
+}
 
 footer {
   text-align: center;
